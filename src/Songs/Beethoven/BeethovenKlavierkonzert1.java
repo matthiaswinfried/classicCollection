@@ -8,18 +8,19 @@ import Basic.Song;
 import Basic.Tonart;
 import Komponisten.Beethoven;
 import Komponisten.Komponist;
+import Werkarten.Klavierkonzert;
 import Werkarten.Klaviersonate;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class KlaviersonateNr8 extends Song {
+public class BeethovenKlavierkonzert1 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klaviersonate(),new Nummer(8),new Tonart("c",false),new Opus(13));
-    private static final String BESCHREIBUNG = "Diese Sonate auch 'Pathetique' genannt ist eine meiner liebsten Klaviersonaten überhaupt.";
+    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klavierkonzert(),new Nummer(1),new Tonart("C",true),new Opus(15));
+    private static final String BESCHREIBUNG = "Das ist das erste Klavierkonzert, was ich jemals gehört habe und es ist mir bis heute eines der liebsten.";
 
 
-    public KlaviersonateNr8() {
+    public BeethovenKlavierkonzert1() {
         super(KOMPONIST, BEZEICHNUNG, BESCHREIBUNG);
     }
 }

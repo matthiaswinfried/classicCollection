@@ -7,18 +7,19 @@ import Basic.Song;
 import Basic.Tonart;
 import Komponisten.Beethoven;
 import Komponisten.Komponist;
-import Werkarten.Klaviertrio;
+import Werkarten.Tripelkonzert;
+import Werkarten.Violinkonzert;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class KlaviertrioErzherzog extends Song {
+public class BeethovenViolinkonzerop61 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartTonartOpus(new Klaviertrio(),new Tonart("B",true),new Opus("97"));
-    private static final String BESCHREIBUNG = "Das bekannteste Klaviertrio von Beethoven, die Melodie ist auch wirklich sehr einprägsam.";
+    private static final SongBezeichnung BEZEICHNUNG = new WerkartTonartOpus(new Violinkonzert(),new Tonart("D",true),new Opus(61));
+    private static final String BESCHREIBUNG = "Mein lieblings Violinkonzert von Beethoven.";
 
 
-    public KlaviertrioErzherzog() {
+    public BeethovenViolinkonzerop61() {
         super(KOMPONIST, BEZEICHNUNG, BESCHREIBUNG);
     }
 }

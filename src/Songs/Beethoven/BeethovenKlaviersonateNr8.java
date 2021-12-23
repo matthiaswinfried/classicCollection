@@ -13,13 +13,13 @@ import Werkarten.Klaviersonate;
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class KlaviersonateNr21 extends Song {
+public class BeethovenKlaviersonateNr8 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klaviersonate(),new Nummer(21),new Tonart("C",true),new Opus(53));
-    private static final String BESCHREIBUNG = "Diese Sonate auch 'Waldstein' genannt ist vor allem durch ihren ersten Satz berühmt, die weiteren beiden stehen diesem allerdings auch in nichts nach.";
+    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klaviersonate(),new Nummer(8),new Tonart("c",false),new Opus(13));
+    private static final String BESCHREIBUNG = "Diese Sonate auch 'Pathetique' genannt ist eine meiner liebsten Klaviersonaten überhaupt.";
 
 
-    public KlaviersonateNr21() {
+    public BeethovenKlaviersonateNr8() {
         super(KOMPONIST, BEZEICHNUNG, BESCHREIBUNG);
     }
 }

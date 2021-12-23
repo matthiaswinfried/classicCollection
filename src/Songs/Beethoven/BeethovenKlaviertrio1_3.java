@@ -2,6 +2,7 @@ package Songs.Beethoven;
 
 import Basic.Bezeichnungsarten.SongBezeichnung;
 import Basic.Bezeichnungsarten.WerkartNummerTonartOpus;
+import Basic.Bezeichnungsarten.WerkartTonartOpus;
 import Basic.Nummer;
 import Basic.Opus;
 import Basic.Song;
@@ -9,17 +10,18 @@ import Basic.Tonart;
 import Komponisten.Beethoven;
 import Komponisten.Komponist;
 import Werkarten.Klavierkonzert;
+import Werkarten.Klaviertrio;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class Klavierkonzert5 extends Song {
+public class BeethovenKlaviertrio1_3 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klavierkonzert(),new Nummer(5),new Tonart("Es",true),new Opus(73));
-    private static final String BESCHREIBUNG = "Klavier und Orchester stehen sich wie ebenbürtige Rivalen gegenüber.";
+    private static final SongBezeichnung BEZEICHNUNG = new WerkartTonartOpus(new Klaviertrio(),new Tonart("c",false),new Opus("1/3"));
+    private static final String BESCHREIBUNG = "Ein kleines aber feines Klaviertrio. Besonders Satz 1 & 4 haben es mir angetan.";
 
 
-    public Klavierkonzert5() {
+    public BeethovenKlaviertrio1_3() {
         super(KOMPONIST, BEZEICHNUNG, BESCHREIBUNG);
     }
 }

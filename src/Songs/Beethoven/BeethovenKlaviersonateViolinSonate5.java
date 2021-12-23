@@ -14,13 +14,13 @@ import Werkarten.Klaviersonate;
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class KlaviersonateViolinSonate5 extends Song {
+public class BeethovenKlaviersonateViolinSonate5 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
     private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new KlavierGeigeSonate(),new Nummer(5),new Tonart("F",true),new Opus(24));
     private static final String BESCHREIBUNG = "Diese Sonate auch 'Frühlingssonate' genannt, tut alles was ihr Name sagt. Sie ist für mich eines der am schönsten Klingenden Stücke überhaupt.";
 
 
-    public KlaviersonateViolinSonate5() {
+    public BeethovenKlaviersonateViolinSonate5() {
         super(KOMPONIST, BEZEICHNUNG, BESCHREIBUNG);
     }
 }

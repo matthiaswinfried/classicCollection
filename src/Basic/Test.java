@@ -1,14 +1,15 @@
 package Basic;
 
 import Songs.Beethoven.*;
+import Songs.Schubert.SchubertFantasieViolineKlavier;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
 public class Test {
     public static void main(String[] args) {
-        new Klavierkonzert1().print();
-        new Klavierkonzert5().print();
-        new KlaviersonateNr8().print();
+        new BeethovenKlavierkonzert1().print();
+        new BeethovenKlavierkonzert5().print();
+        new SchubertFantasieViolineKlavier().print();
     }
 }
