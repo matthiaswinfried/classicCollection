@@ -1,14 +1,13 @@
 package Basic.Bezeichnungsarten;
 
 import Basic.Nummer;
-import Basic.Opus;
 import Basic.Tonart;
 import Werkarten.Werkart;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class WerkartNummerTonart extends SongBezeichnung{
+public class WerkartNummerTonart extends WerkBezeichnung {
     private final Werkart WERKART;
     private final Nummer NUMMER;
     private final Tonart TONART;

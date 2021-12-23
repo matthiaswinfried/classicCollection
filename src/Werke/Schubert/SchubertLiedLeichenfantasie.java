@@ -1,6 +1,6 @@
-package Songs.Schubert;
+package Werke.Schubert;
 
-import Basic.Bezeichnungsarten.SongBezeichnung;
+import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartKeinOpus;
 import Basic.Song;
 import Komponisten.Komponist;
@@ -12,7 +12,7 @@ import Werkarten.Lied;
  */
 public class SchubertLiedLeichenfantasie extends Song {
     private static final Komponist KOMPONIST = new Schubert();
-    private static final SongBezeichnung BEZEICHNUNG =  new WerkartKeinOpus(new Lied("Leichenfantasie D7"));
+    private static final WerkBezeichnung BEZEICHNUNG =  new WerkartKeinOpus(new Lied("Leichenfantasie D7"));
     private static final String BESCHREIBUNG = "Schubert vertonte in diesem Lied ein Werk von Schiller. Musikalisch zweifellos beachtenswert. Versprüht auf jeden Fall nicht viel positive Energie.";
 
 

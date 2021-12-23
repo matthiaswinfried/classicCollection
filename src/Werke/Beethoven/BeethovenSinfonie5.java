@@ -1,6 +1,6 @@
-package Songs.Beethoven;
+package Werke.Beethoven;
 
-import Basic.Bezeichnungsarten.SongBezeichnung;
+import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartNummerTonartOpus;
 import Basic.Nummer;
 import Basic.Opus;
@@ -15,7 +15,7 @@ import Werkarten.Sinfonie;
  */
 public class BeethovenSinfonie5 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Sinfonie(),new Nummer(5),new Tonart("c",false),new Opus(7));
+    private static final WerkBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Sinfonie(),new Nummer(5),new Tonart("c",false),new Opus(7));
     private static final String BESCHREIBUNG = "Die 5. Sinfonie ist eines der bekanntesten sinfonischen Werke, welches jemals komponiert wurde. Fast jeder kennt den Anfang des ersten Satzes. da da da daaaa";
 
 

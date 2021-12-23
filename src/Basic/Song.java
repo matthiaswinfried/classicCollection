@@ -1,6 +1,6 @@
 package Basic;
 
-import Basic.Bezeichnungsarten.SongBezeichnung;
+import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Komponisten.Komponist;
 
 /**
@@ -9,16 +9,16 @@ import Komponisten.Komponist;
 public class Song {
     private final Komponist KOMPONIST;
 
-    private final SongBezeichnung BEZEICHNUNG;
+    private final WerkBezeichnung BEZEICHNUNG;
 
     private final String BESCHREIBUNG;
-    public Song(Komponist KOMPONIST, SongBezeichnung BEZEICHNUNG) {
+    public Song(Komponist KOMPONIST, WerkBezeichnung BEZEICHNUNG) {
         this.KOMPONIST = KOMPONIST;
         this.BEZEICHNUNG = BEZEICHNUNG;
         this.BESCHREIBUNG = null;
     }
 
-    public Song(Komponist KOMPONIST, SongBezeichnung BEZEICHNUNG, String BESCHREIBUNG) {
+    public Song(Komponist KOMPONIST, WerkBezeichnung BEZEICHNUNG, String BESCHREIBUNG) {
         this.KOMPONIST = KOMPONIST;
         this.BEZEICHNUNG = BEZEICHNUNG;
         this.BESCHREIBUNG = BESCHREIBUNG;

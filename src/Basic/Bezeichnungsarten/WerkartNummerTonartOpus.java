@@ -8,7 +8,7 @@ import Werkarten.Werkart;
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
-public class WerkartNummerTonartOpus extends SongBezeichnung{
+public class WerkartNummerTonartOpus extends WerkBezeichnung {
     private final Werkart WERKART;
     private final Nummer NUMMER;
     private final Tonart TONART;

@@ -1,9 +1,7 @@
-package Songs.Schubert;
+package Werke.Schubert;
 
-import Basic.Bezeichnungsarten.SongBezeichnung;
+import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartKeinOpus;
-import Basic.Bezeichnungsarten.WerkartOpus;
-import Basic.Opus;
 import Basic.Song;
 import Komponisten.Komponist;
 import Komponisten.Schubert;
@@ -14,7 +12,7 @@ import Werkarten.Lied;
  */
 public class SchubertLiedDerVatermörder extends Song {
     private static final Komponist KOMPONIST = new Schubert();
-    private static final SongBezeichnung BEZEICHNUNG =  new WerkartKeinOpus(new Lied("Der Vatermörder"));
+    private static final WerkBezeichnung BEZEICHNUNG =  new WerkartKeinOpus(new Lied("Der Vatermörder"));
     private static final String BESCHREIBUNG = "In all seiner Schönheit grotesk. In all seiner Groteskheit schön.";
 
 

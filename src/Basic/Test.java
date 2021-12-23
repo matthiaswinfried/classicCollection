@@ -1,7 +1,7 @@
 package Basic;
 
-import Songs.Beethoven.*;
-import Songs.Schubert.SchubertFantasieViolineKlavier;
+import Werke.Beethoven.*;
+import Werke.Schubert.SchubertFantasieViolineKlavier;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.

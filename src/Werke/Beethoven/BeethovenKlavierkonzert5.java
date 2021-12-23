@@ -1,6 +1,6 @@
-package Songs.Beethoven;
+package Werke.Beethoven;
 
-import Basic.Bezeichnungsarten.SongBezeichnung;
+import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartNummerTonartOpus;
 import Basic.Nummer;
 import Basic.Opus;
@@ -15,7 +15,7 @@ import Werkarten.Klavierkonzert;
  */
 public class BeethovenKlavierkonzert5 extends Song {
     private static final Komponist KOMPONIST = new Beethoven();
-    private static final SongBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klavierkonzert(),new Nummer(5),new Tonart("Es",true),new Opus(73));
+    private static final WerkBezeichnung BEZEICHNUNG = new WerkartNummerTonartOpus(new Klavierkonzert(),new Nummer(5),new Tonart("Es",true),new Opus(73));
     private static final String BESCHREIBUNG = "Klavier und Orchester stehen sich wie ebenbürtige Rivalen gegenüber.";
 
 
