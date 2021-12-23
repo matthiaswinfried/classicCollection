@@ -17,4 +17,8 @@ public class Opus {
     public String toString() {
         return "op. " + NUMBER;
     }
+
+    public String getNUMBER() {
+        return NUMBER;
+    }
 }

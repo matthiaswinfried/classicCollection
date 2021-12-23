@@ -1,5 +1,8 @@
 package Basic;
 
+import Werke.Bach.BachGoldbergVariationen;
+import Werke.Bach.BachKonzert4CemaliaMoll;
+import Werke.Bach.BachWohltemperiert;
 import Werke.Beethoven.*;
 import Werke.Schubert.SchubertFantasieViolineKlavier;
 
@@ -8,8 +11,6 @@ import Werke.Schubert.SchubertFantasieViolineKlavier;
  */
 public class Test {
     public static void main(String[] args) {
-        new BeethovenKlavierkonzert1().print();
-        new BeethovenKlavierkonzert5().print();
-        new SchubertFantasieViolineKlavier().print();
+        new BachGoldbergVariationen().print();
     }
 }
