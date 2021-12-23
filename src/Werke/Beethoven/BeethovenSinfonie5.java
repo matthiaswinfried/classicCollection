@@ -3,7 +3,7 @@ package Werke.Beethoven;
 import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartNummerTonartOpus;
 import Basic.Nummer;
-import Basic.Opus;
+import Basic.opus.Opus;
 import Basic.Song;
 import Basic.Tonart;
 import Komponisten.Beethoven;

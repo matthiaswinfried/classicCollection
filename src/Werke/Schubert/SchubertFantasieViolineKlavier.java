@@ -2,7 +2,7 @@ package Werke.Schubert;
 
 import Basic.Bezeichnungsarten.WerkBezeichnung;
 import Basic.Bezeichnungsarten.WerkartTonartOpus;
-import Basic.Opus;
+import Basic.opus.Opus;
 import Basic.Song;
 import Basic.Tonart;
 import Komponisten.Komponist;

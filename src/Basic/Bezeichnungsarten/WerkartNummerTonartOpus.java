@@ -1,7 +1,7 @@
 package Basic.Bezeichnungsarten;
 
 import Basic.Nummer;
-import Basic.Opus;
+import Basic.opus.Opus;
 import Basic.Tonart;
 import Werkarten.Werkart;
 

@@ -1,6 +1,6 @@
 package Basic.Bezeichnungsarten;
 
-import Basic.Opus;
+import Basic.opus.Opus;
 import Werkarten.Werkart;
 
 /**

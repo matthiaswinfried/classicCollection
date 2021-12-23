@@ -1,4 +1,4 @@
-package Basic;
+package Basic.opus;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
