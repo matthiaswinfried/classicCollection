@@ -16,12 +16,14 @@ public class Song {
         this.KOMPONIST = KOMPONIST;
         this.BEZEICHNUNG = BEZEICHNUNG;
         this.BESCHREIBUNG = null;
+        SongCollection.songs.add(this);
     }
 
     public Song(Komponist KOMPONIST, WerkBezeichnung BEZEICHNUNG, String BESCHREIBUNG) {
         this.KOMPONIST = KOMPONIST;
         this.BEZEICHNUNG = BEZEICHNUNG;
         this.BESCHREIBUNG = BESCHREIBUNG;
+        SongCollection.songs.add(this);
     }
 
     @Override

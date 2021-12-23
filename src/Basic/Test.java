@@ -1,16 +1,16 @@
 package Basic;
 
-import Werke.Bach.BachGoldbergVariationen;
-import Werke.Bach.BachKonzert4CemaliaMoll;
-import Werke.Bach.BachWohltemperiert;
-import Werke.Beethoven.*;
-import Werke.Schubert.SchubertFantasieViolineKlavier;
+import Werke.Mendelssohn.MendelssohnKlavierkonzert2;
+import Werke.Mendelssohn.MendelssohnTrio2;
 
 /**
  * @author Matthias Weigt -- 22.12.2021.
  */
 public class Test {
     public static void main(String[] args) {
-        new BachGoldbergVariationen().print();
+        new MendelssohnKlavierkonzert2();
+        new MendelssohnTrio2();
+
+        SongCollection.printAll();
     }
 }
