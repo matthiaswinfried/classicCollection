@@ -32,7 +32,13 @@ public class Song {
     }
 
     public void print() {
-        System.out.println(toString());
-        System.out.println(BESCHREIBUNG);
+        System.out.println("\\textbf{" + toString() + "} \\newline");
+        System.out.println(BESCHREIBUNG + " \\newline \\newline");
     }
+
+    public Komponist getKOMPONIST() {
+        return KOMPONIST;
+    }
+
+
 }

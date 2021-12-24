@@ -16,6 +16,23 @@ public class Komponist {
         this.TODESJAHR = TODESJAHR;
     }
 
+    public String getNAME() {
+        return NAME;
+    }
+
+
+    public int getAlter() {
+        return TODESJAHR - GEBURTSJAHR;
+    }
+
+    public String getLebensZeitString() {
+        return "" + GEBURTSJAHR + "-" + TODESJAHR + " (" + getAlter() + ")";
+    }
+
+    public String getFullName() {
+        return getNAME();
+    }
+
     @Override
     public String toString() {
         return NAME;

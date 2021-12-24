@@ -6,6 +6,10 @@ package Werkarten;
 public class Werkart {
     private final String WERKART;
 
+    public String getWERKART() {
+        return WERKART;
+    }
+
     public Werkart(String WERKART) {
         this.WERKART = WERKART;
     }
