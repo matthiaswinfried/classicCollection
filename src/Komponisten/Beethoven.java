@@ -8,6 +8,6 @@ import Komponisten.Komponist;
 public class Beethoven extends Komponist {
 
     public Beethoven() {
-        super("Beethoven");
+        super("Beethoven",1770,1827);
     }
 }

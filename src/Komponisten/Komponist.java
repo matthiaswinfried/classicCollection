@@ -6,8 +6,14 @@ package Komponisten;
 public class Komponist {
     private final String NAME;
 
-    public Komponist(String NAME) {
+    public final int GEBURTSJAHR;
+
+    public final int TODESJAHR;
+
+    public Komponist(String NAME, int GEBURTSJAHR, int TODESJAHR) {
         this.NAME = NAME;
+        this.GEBURTSJAHR = GEBURTSJAHR;
+        this.TODESJAHR = TODESJAHR;
     }
 
     @Override

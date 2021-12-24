@@ -6,6 +6,6 @@ package Komponisten;
 public class Bach extends Komponist {
 
     public Bach() {
-        super("Bach");
+        super("Bach",1685,1750);
     }
 }

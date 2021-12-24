@@ -6,6 +6,6 @@ package Komponisten;
 public class Mozart extends Komponist {
 
     public Mozart() {
-        super("Mozart");
+        super("Mozart",1756,1791);
     }
 }

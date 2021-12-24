@@ -6,6 +6,6 @@ package Komponisten;
 public class Tschaikowski extends Komponist {
 
     public Tschaikowski() {
-        super("Tschaikowski");
+        super("Tschaikowski",1840,1894);
     }
 }

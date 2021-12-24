@@ -6,6 +6,6 @@ package Komponisten;
 public class Schubert extends Komponist {
 
     public Schubert() {
-        super("Schubert");
+        super("Schubert",1797,1828);
     }
 }

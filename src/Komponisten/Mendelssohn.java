@@ -6,6 +6,6 @@ package Komponisten;
 public class Mendelssohn extends Komponist {
 
     public Mendelssohn() {
-        super("Mendelssohn");
+        super("Mendelssohn",1809,1847);
     }
 }

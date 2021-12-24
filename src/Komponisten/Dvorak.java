@@ -6,6 +6,6 @@ package Komponisten;
 public class Dvorak extends Komponist {
 
     public Dvorak() {
-        super("Dvorak");
+        super("Dvorak",1841,1904);
     }
 }
